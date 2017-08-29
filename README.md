@@ -19,13 +19,22 @@ To install simply add
 ```ruby
 gem 'weather-icons-rails'
 ```
-then after bundeling add
+then after bundling add
 
 ```css
 *= require weather-icons
 ```
 
 right before `*= require_self`
+
+## Sass Support
+
+If you prefer [SCSS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), add this to your
+`application.css.scss` file:
+
+```scss
+@import "weather-icons";
+```
 
 ###### Now it's time to have at it, and class up your HTML.
 
